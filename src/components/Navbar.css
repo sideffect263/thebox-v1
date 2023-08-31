@@ -15,7 +15,7 @@
 .logo a {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #57cc99;
+  color: #6bd425;
   text-decoration: none;
 }
 
@@ -36,10 +36,29 @@
 
 .hamburger-list{
   position: absolute;
-  background-color: aliceblue;
+  background-color:#b2ff9e;
   border-radius: 1rem;
-  transform: translate(0, 80%);
+  transform: translate(-20%, 70%);
+  animation: fadeInDown 0.3s forwards;
+
 }
+
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(70%);
+  }
+}
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
   .nav-list {
@@ -52,7 +71,7 @@
     margin-right: 10%;
     justify-content: center;
     flex:1;
-    background-color: #57cc99;
+    background-color: #6bd425;
   }
 }
 
@@ -66,7 +85,7 @@
 }
 
 .hamburger-list a {
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: #000;
   text-decoration: none;
   align-items: center;
@@ -74,7 +93,7 @@
 }
 
 .hamburger-list a:hover {
-  color: #ff9900;
+  color: #7cff24;
 }
 
 .hamburger-item {

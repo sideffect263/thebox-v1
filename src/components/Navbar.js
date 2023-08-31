@@ -29,7 +29,7 @@ function Navbar() {
         </li>
       </ul>
       <div className="hamburger">
-        <Hamburger toggle={setOpen} toggled={isOpen} size={50} />
+        <Hamburger easing='ease-in' toggle={setOpen} toggled={isOpen} size={50} />
        { 
         <ul hidden={!isOpen} className="hamburger-list">
         <li className="hamburger-item">

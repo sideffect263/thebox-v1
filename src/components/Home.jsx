@@ -5,11 +5,7 @@ import img2 from '../assets/infa/fpc-noimage.jpeg';
 import img3 from '../assets/infa/fpc-image.jpeg'
 import { useNavigate } from "react-router-dom";
 
-const randNum =   Math.random();
-let tImg=img1;
-if(randNum > 0.7) tImg = img1;
- else if(randNum > 0.4) tImg = img2; 
-else tImg = img3;
+
 function Home() {
 
   const navigate = useNavigate();
