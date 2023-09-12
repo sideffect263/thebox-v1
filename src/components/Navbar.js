@@ -19,7 +19,7 @@ function Navbar() {
           <Link to="/" className="nav-link">דף הבית</Link>
         </li>
         <li className="nav-item">
-          <Link to="/about" className="nav-link">אודות</Link>
+          <Link to="/about" className="nav-link">לוח אימונים</Link>
         </li>
         <li className="nav-item">
           <Link to="/services" className="nav-link">שירותים</Link>
@@ -36,7 +36,7 @@ function Navbar() {
           <Link to="/" className="hamburger-link">דף הבית</Link>
         </li>
         <li className="hamburger-item">
-          <Link to="/about" className="hamburger-link">אודות</Link>
+          <Link to="/about" className="hamburger-link">לוח אימונים</Link>
         </li>
         <li className="hamburger-item">
           <Link to="/services" className="hamburger-link">שירותים</Link>

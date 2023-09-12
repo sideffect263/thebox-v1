@@ -1,12 +1,26 @@
 .about {
-    background-color: #fff;
-    padding: 4rem;
-    text-align: center;
+    padding: 5rem;
+    display: flex;
+    flex: 1;
+    background-color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
   .about-content {
-    max-width: 600px;
-    margin: 0 auto;
+    background-color: '#023047';
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+
+  }
+
+  #traning-scaduel{
+    background-color: #023047;
+    height: 100vmax;
+    width: 100%;
   }
   
   .about h2 {
@@ -18,4 +32,4 @@
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
   }
-          
+  

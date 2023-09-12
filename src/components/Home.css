@@ -1,12 +1,23 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
 .home {
   background-image: linear-gradient(to bottom, #f0f6fd, #e0f2ff);
-  padding: 10rem ;
   text-align: center;
   display: flex;
+  flex: 1;
+  padding: 6rem ;
+  height: 100%;
+  align-self: 'stretch';
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
   background-image: url("https://www.oganim-dvir.co.il/images/project_models_image1_4.jpg?1691712000022");
 
 }
@@ -20,34 +31,11 @@
 }
 
 .home-content {
-  max-width: 1100px;
-  max-height: 1000px;
-  margin: 3rem auto;
+  margin: 3rem ;
   padding: 2rem ;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   background-color: #fff;
-}
-
-@media screen and (max-width: 768px) {
-  .home-content {
-    padding: 1rem;
-    max-width: 1100px;
-    margin: 6rem auto;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    background-color: #fff;
-  
-  }
-
-  .home{
-    padding: 1rem ;
-    width: 200%;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 100vh;
-  }
 }
 
 .home h2 {
@@ -87,7 +75,7 @@
 
 
 #veS img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
@@ -129,5 +117,32 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+  .home-content {
+    margin: 2rem;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  
+  }
+
+  .home{
+    padding: 0rem auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #veS img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
   }
 }
