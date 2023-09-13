@@ -1,9 +1,14 @@
 #root{
-display: flex;
-flex-direction: column;
-flex: 1;
-}
-html{
     display: flex;
-}
-
+    flex-direction: column;
+    flex: 1;
+    }
+    html{
+        display: flex;
+    }
+    
+    #body{
+        display: flex;
+        flex-direction: column;
+    }
+    

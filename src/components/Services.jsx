@@ -20,6 +20,7 @@ function Services() {
 
   return (
     <div className="services">
+      <div className='services-content'>
       <h2>שירותים שאנו מציעים</h2>
       <div className="services-list">
         {servicesData.map((service, index) => (
@@ -28,6 +29,7 @@ function Services() {
             <p>{service.description}</p>
           </div>
         ))}
+      </div>
       </div>
     </div>
   );
