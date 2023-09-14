@@ -3,19 +3,12 @@ import './Home.css'; // You can create this CSS file for styling
 import img1 from '../assets/infa/thebox-noimage.jpeg';
 import img2 from '../assets/infa/fpc-noimage.jpeg';
 import img3 from '../assets/infa/fpc-image.jpeg'
-import { useNavigate } from "react-router-dom";
 
 
 function Home() {
 
   
-  const navigate = useNavigate();
 
-const discoverMoreClicked = () => {
-  console.log('discoverMoreClicked');
-  navigate('/about');
-  console.log('redirected');
-}
 
   return (
     <div className="main">
