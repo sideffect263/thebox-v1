@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 
 function Home() {
 
+  
   const navigate = useNavigate();
 
 const discoverMoreClicked = () => {
@@ -25,42 +26,31 @@ const discoverMoreClicked = () => {
         <h2>התחברו לאושר הגופני</h2>
         <p>גלו דרך חדשה לחיים בריאים ואקטיביים בסטודיו הכושר שלנו</p>
         <div className="top-elements">
-        <div id='veS' className="visual-elements-left">
+        <a id='veS' className="visual-elements-left" href='/home#womens-group'>
         <img src={img1} alt="פתיחת הדלת לאושר הגופני" />
         <h1>קבוצת נשים</h1>
-        </div>
-        <div id='veS' className="visual-elements-right">
+        </a>
+        <a id='veS' className="visual-elements-right" href='/home#mens-group'>
         <img src={img3} alt="פתיחת הדלת לאושר הגופני" />
         <h1>קבוצת גברים</h1>
 
+        </a>
         </div>
-        </div>
-        <div id='veS' className="visual-elements">
+        <a id='veS' className="visual-elements" href='/home#personal-training'>
         <img src={img2} alt="פתיחת הדלת לאושר הגופני" />
         <h1>אימונים אישיים</h1>
-        </div>
+        </a>
 
       </div>
       
-      <button onClick={discoverMoreClicked}  className="cta-button">גלו עוד</button>
       <div className="home-content">
-        <h2>התחברו לאושר הגופני</h2>
-        <p>גלו דרך חדשה לחיים בריאים ואקטיביים בסטודיו הכושר שלנו</p>
-        <div className="top-elements">
-        <div id='veS' className="visual-elements-left">
-        <img src={img1} alt="פתיחת הדלת לאושר הגופני" />
-        <h1>קבוצת נשים</h1>
-        </div>
-        <div id='veS' className="visual-elements-right">
-        <img src={img3} alt="פתיחת הדלת לאושר הגופני" />
-        <h1>קבוצת גברים</h1>
+       <div className="mens-group" id='mens-group'>
 
-        </div>
-        </div>
-        <div id='veS' className="visual-elements">
-        <img src={img2} alt="פתיחת הדלת לאושר הגופני" />
-        <h1>אימונים אישיים</h1>
-        </div>
+       </div>
+        <div className="womens-group" id='womens-group'>
+          </div>
+        <div className="personal-training" id="personal-training" >
+          </div>
 
       </div>
       

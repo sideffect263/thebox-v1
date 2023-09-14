@@ -22,7 +22,10 @@ function Navbar() {
           <Link to="/about" className="nav-link">לוח אימונים</Link>
         </li>
         <li className="nav-item">
-          <Link to="/services" className="nav-link">שירותים</Link>
+          <Link to="/services" className="nav-link">סוגי אימונים</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/services" className="nav-link">סוגי אימונים</Link>
         </li>
         <li className="nav-item">
           <Link to="/contact" className="nav-link">צור קשר</Link>
@@ -39,7 +42,10 @@ function Navbar() {
           <Link to="/about" className="hamburger-link">לוח אימונים</Link>
         </li>
         <li className="hamburger-item">
-          <Link to="/services" className="hamburger-link">שירותים</Link>
+          <Link to="/services" className="hamburger-link">סוגי אימונים</Link>
+        </li>
+        <li className="hamburger-item">
+          <Link to="/services" className="hamburger-link">סוגי אימונים</Link>
         </li>
         <li className="hamburger-item">
           <Link to="/contact" className="hamburger-link">צור קשר</Link>

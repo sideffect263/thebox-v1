@@ -41,6 +41,7 @@
   background-color:#b2ff9e;
   border-radius: 1rem;
   margin-right: 10vh;
+  padding: 0;
   transform: translate(-40%, 70%);
   animation: fadeInDown 0.3s forwards;
 
@@ -63,15 +64,15 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
   .nav-list {
     display: none;
   }
   .hamburger {
     display:flex;
-    max-width: 10%;
+    max-width: 55px;
     align-items: center;
-    margin-right: 10%;
+    margin-right: 15%;
     justify-content: center;
     flex:1;
     background-color: #6bd425;
@@ -83,12 +84,14 @@
   text-align: center;
   width: 80%;
   list-style:none;
+  justify-content: center;
+  display: flex;
   
 
 }
 
 .hamburger-list a {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #000;
   text-decoration: none;
   text-align: center;
