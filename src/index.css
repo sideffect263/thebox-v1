@@ -17,4 +17,7 @@ code {
 
 html {
   display: flex;
+  flex: 1;
+  width: inherit;
+  height: inherit;
 }
